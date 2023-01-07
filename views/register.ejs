@@ -1,0 +1,61 @@
+<!-- Content -->
+<section id="register__container">
+    <div class="main-content">
+        <h1 class="title-header bigger">PowerCredit</h1>
+        <h2 class="title">Login to get full access to the content</h3>
+        <h3 class="lighter">Don't miss any chance!</h3>
+        <br />
+        <form action="/users/login" method="post">
+            <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Name"
+            autocomplete="off"
+            aria-label="name">
+
+            <input
+            id="username"
+            type="text"
+            name="username"
+            placeholder="Username"
+            autocomplete="off"
+            aria-label="username">
+
+            <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Email"
+            autocomplete="off"
+            aria-label="Email">
+            <input
+                id="password"
+                type="password"
+                name="password"
+                placeholder="Password"
+                aria-label="password">
+            <input
+                id="repeated-password"
+                type="password"
+                name="repeated-password"
+                placeholder="Repeat password"
+                aria-label="password again">
+            
+            <div class="register__form-terms">
+                <input type="checkbox" name="terms" id="terms-conditions">
+                <label for="terms-conditions">I Accept all the terms and conditions</label>
+            </div>
+
+            <div class="register__button-panel">
+                <input class="panel-btn" type="submit" value="Register">
+                <a     class="panel-link header__link hover-link" href="/users/login">Login</a>
+            </div>
+        </form>
+
+        <div class="bottom-presentation"></div>
+    </div>
+</section>
+
+
+<%- include('./partials/square-rain.ejs') %>

@@ -13,6 +13,7 @@
 /* View components */
 @import url('./views/index.css');
 @import url('./views/login.css');
+@import url('./views/register.css');
 
 
 /* Local Components */
