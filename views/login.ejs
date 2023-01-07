@@ -1,0 +1,33 @@
+<!-- Content -->
+<section id="login__container">
+    <div class="main-content">
+        <h1 class="title-header bigger">PowerCredit</h1>
+        <h2 class="title">Login to get full access to the content</h3>
+        <h3 class="lighter">Don't miss any chance!</h3>
+        <br />
+        <form action="/users/login" method="post">
+            <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Email"
+            autocomplete="off"
+            aria-label="Email">
+
+            <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Password"
+            aria-label="password">
+
+            <div class="login__button-panel">
+                <input class="panel-btn" type="submit" value="Login">
+                <a     class="panel-link header__link hover-link" href="/users/register">Register</a>
+            </div>
+        </form>
+
+        <div class="bottom-presentation"></div>
+    </div>
+</section>
+<%- include('./partials/square-rain.ejs') %>

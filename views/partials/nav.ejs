@@ -1,0 +1,25 @@
+<header>
+    <nav class="header__nav-main">
+          <a tabindex="0" class="header__link hover-link" id="header__nav-maintitle" href="/">PowerCredit</a>
+            <ul>
+                <% if (user != undefined) { %>
+                    <li>
+                        <a tabindex="0" class="header__link hover-link" aria-current="page" href="/">Inicio</a>
+                      </li>
+                      <li>
+                        <a tabindex="0" class="header__link hover-link" href="/about">About PowerCredit</a>
+                      </li>
+                      <li>
+                        <a tabindex="0" class="header__link hover-link" href="/contact">Contacto</a>
+                      </li>
+                <% } else { %>
+                    <li>
+                        <a tabindex="0" id="header__link-login" class="header__link" aria-current="page" href="/users/login">Login</a>
+                      </li>
+                      <li id="header__nav-last-item" class="hover-link">
+                        <a tabindex="0" class="header__link" aria-current="page" href="/users/register">Register</a>
+                      </li>
+                <% } %>
+            </ul>
+      </nav>
+</header>

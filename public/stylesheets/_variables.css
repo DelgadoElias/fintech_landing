@@ -1,0 +1,9 @@
+:root {
+    --dark-green: rgba(79, 164, 61, 0.373);
+    --green-gradient: linear-gradient(90deg, rgba(48,141,97,1) 1%, rgba(19,112,68,1) 100%);
+    --green: rgb(48,141,97);
+
+    --white: white;
+    --light-black: #333;
+    --black: black;
+}

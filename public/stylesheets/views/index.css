@@ -1,0 +1,31 @@
+
+#index__container .main-content {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+}
+
+.main__button-container{
+    padding-top: 30px;
+    display: flex;
+    gap: 0.3rem;
+    flex-direction: column;
+}
+.main__button-btn{
+    background: var(--green-gradient);
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    margin: auto;
+    font-size:1.1rem;
+}
+.main__button-link {
+    padding: 10px;
+    color: var(--black);
+    text-decoration: none;
+}
+.main__button-link:hover{
+    text-decoration: underline;
+}

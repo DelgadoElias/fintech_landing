@@ -1,0 +1,52 @@
+.creditcard__container{
+    height: fit-content;
+    max-height: 260px;
+}
+
+#creditcard__container{
+    position: relative;
+    top:-250px;
+    width:450px;
+    height: 250px;
+    background: rgb(48,141,97);
+    background: linear-gradient(90deg, rgba(48,141,97,1) 1%, rgba(19,112,68,1) 100%);
+    border-radius: 20px;
+    margin: auto;
+}
+
+#creditcard__container .top {
+    padding: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#creditcard__container .top_left-icon {
+    width: 40px;
+    transform: rotate(270deg);
+}
+
+#creditcard__container .top_right-icon {
+    width: 50px;
+    transform: rotate(180deg);
+}
+
+#creditcard__container .bottom {
+    position: relative;
+    top:50px;
+}
+.bottom_left-icon{
+    margin-left: 330px;
+    width: 60px;
+}
+
+#creditcard__background{
+    position: relative;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.233);
+    transform: rotate(-5deg);
+    border-radius: 20px;
+    width:450px;
+    height: 250px;
+    animation: moving 8s ease-in-out infinite; 
+}

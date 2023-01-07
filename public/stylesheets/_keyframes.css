@@ -1,0 +1,45 @@
+@keyframes square-rain {
+
+    0%{
+        transform: translateY(-1200px) translateX(100px) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+  
+    100%{
+        transform: translateY(0) translateX(-200px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+  
+}
+
+@keyframes moving {
+    0%   {
+        transform: rotate(-5deg);
+    }
+    20%  {
+        transform: rotate(0deg);
+    }
+    40%  {
+        transform: rotate(3deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    80% {
+        transform: rotate(-3deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
