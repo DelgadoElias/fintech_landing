@@ -13,6 +13,7 @@ const Sch_Users = new Schema({
     password: String,
     newsletter: Boolean,
     username: String,
+    name: String,
     isAdmin: Boolean,
     comments: [String],
 });

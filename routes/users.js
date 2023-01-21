@@ -17,10 +17,12 @@ const router = express.Router();
 router.get('/', user.getIndex);
 
 // login
-router.get('/login', login.getIndex)
+router.get('/login', login.getIndex);
+router.post('/login', login.postLogin);
 
 // register
-router.get('/register', register.getIndex)
+router.get('/register', register.getIndex);
+router.post('/register', register.postIndex);
 
 
 /**

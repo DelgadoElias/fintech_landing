@@ -9,6 +9,8 @@ const logger = require('morgan');
 const {v4: uuidv4} = require('uuid');
 const session = require('express-session');
 const Layout = require('express-ejs-layouts');
+const helmet = require('helmet');
+const { RateLimiterMongo } = require('rate-limiter-flexible');
 
 // Route dependencies
 const indexRouter = require('./routes/index');
@@ -42,6 +44,8 @@ app.use(session({
   resave: true,
   saveUninitialized: true,
 }));
+app.use(helmet());
+
 
 /**
  * Mount routes
@@ -70,7 +74,7 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error', { user: undefined });
 });
 
 module.exports = app;
