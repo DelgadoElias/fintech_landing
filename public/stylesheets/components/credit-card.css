@@ -50,3 +50,21 @@
     height: 250px;
     animation: moving 8s ease-in-out infinite; 
 }
+
+@media screen and (max-width: 700px) {
+    #creditcard__background{
+        width: 80% !important;
+        height: 15vh;
+    }
+    .creditcard__container {
+        height: 15vh;
+    }
+    #creditcard__container{
+        width: 80% !important;
+        height: 15vh;
+        top: -130px;
+    }
+    .bottom_left-icon {
+        display: none;
+    }
+}

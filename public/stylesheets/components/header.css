@@ -45,3 +45,14 @@ header nav.header__nav-main ul{
     padding-right: 10px;
     padding-left: 20px;
 }
+
+
+@media screen and (max-width: 700px) {
+    .header_mobile-notshown {
+        display: none !important;
+    }
+    .title {
+        width: 100%;
+        text-align: center;
+    }   
+}

@@ -2,7 +2,7 @@
 #index__container .main-content {
     text-align: center;
     margin: auto;
-    width: 600px;
+    max-width: 600px;
 }
 
 .main__button-container{
@@ -28,4 +28,13 @@
 }
 .main__button-link:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+    .main__button-btn {
+        width: 60%;
+    }
+    .main-content {
+        padding: 0px 20px;
+    }
 }
