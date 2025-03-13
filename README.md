@@ -1,3 +1,4 @@
+
 # Minimal Landing Page Scaffold
 
 A minimal Node.js + Express + EJS landing page scaffold with MongoDB, designed to help developers start quickly without building everything from scratch.
@@ -13,7 +14,7 @@ A minimal Node.js + Express + EJS landing page scaffold with MongoDB, designed t
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/DelgadoElias/fintech_landing.git --depth=1
    cd your-repo
    ```
 
@@ -55,4 +56,3 @@ Feel free to fork this repository, submit issues, or open pull requests to impro
 ## License
 
 [MIT](LICENSE)
-
